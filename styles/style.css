@@ -39,4 +39,31 @@ width: 300px;
 .banner-container{
     display: flex;
     justify-content: space-around;
+    height: 100vh;
+    color: violet;
+    align-items: center;
+    background-image: url('../images/background.png') linear-gradient(180deg,rgb(51, 48, 48),rgb(65, 61, 61));
+    
+}
+
+.title {
+    font-size:55px;
+    font-weight: bold;
+}
+
+.description {
+    font-size: 15px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.btn {
+    padding: 10px 20px;
+    background-color: red;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+.btn:hover{
+    color: aqua;
 }
